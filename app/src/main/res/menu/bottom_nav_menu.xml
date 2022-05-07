@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/home_selector"
+        android:iconTint="#FFFFFF"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+    <item
+        android:id="@+id/navigation_allusers"
+        android:icon="@drawable/user"
+        android:iconTint="#FFFFFF"
+        android:title="All Users"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>
